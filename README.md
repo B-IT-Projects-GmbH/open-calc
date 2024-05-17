@@ -11,6 +11,13 @@ OpenCalc is an open-source ionic calorie counting app that helps users track the
 - Set and monitor calorie goals
 - Generate reports on calorie consumption
 
+## Tech-Stack
+
+- [Ionic](https://ionicframework.com/) - A cross-platform mobile app development framework for the frontend
+- [Capacitor](https://capacitorjs.com/) - A cross-platform app runtime to build native apps using web technologies
+- [Vue.js](https://vuejs.org/) - A progressive JavaScript framework for building user interfaces
+- [Pinia](https://pinia.esm.dev/) - A Vue.js store that is designed to be easy to use and understand
+
 ## Download
 
 After the first release, you will be able to download the app from the [Google Play Store](https://play.google.com/store) and the [Apple App Store](https://www.apple.com/app-store/).
