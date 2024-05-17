@@ -12,6 +12,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@capacitor-mlkit/barcode-scanning": "^6.1.0",
     "@capacitor/android": "6.0.0",
     "@capacitor/app": "6.0.0",
     "@capacitor/core": "6.0.0",
@@ -36,6 +37,7 @@
     "eslint": "^8.35.0",
     "eslint-plugin-vue": "^9.9.0",
     "jsdom": "^22.1.0",
+    "sass": "^1.77.2",
     "terser": "^5.4.0",
     "typescript": "^5.1.6",
     "vite": "^5.0.0",

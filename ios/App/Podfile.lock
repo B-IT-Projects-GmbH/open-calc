@@ -8,8 +8,69 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (6.0.0):
     - Capacitor
+  - CapacitorMlkitBarcodeScanning (6.1.0):
+    - Capacitor
+    - GoogleMLKit/BarcodeScanning (= 5.0.0)
   - CapacitorStatusBar (6.0.0):
     - Capacitor
+  - GoogleDataTransport (9.4.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMLKit/BarcodeScanning (5.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitBarcodeScanning (~> 4.0.0)
+  - GoogleMLKit/MLKitCore (5.0.0):
+    - MLKitCommon (~> 10.0.0)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUtilities/Environment (7.13.2):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.2)
+  - GoogleUtilities/UserDefaults (7.13.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (3.4.1)
+  - MLImage (1.0.0-beta5)
+  - MLKitBarcodeScanning (4.0.0):
+    - MLKitCommon (~> 10.0)
+    - MLKitVision (~> 6.0)
+  - MLKitCommon (10.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+  - MLKitVision (6.0.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+    - MLImage (= 1.0.0-beta5)
+    - MLKitCommon (~> 10.0)
+  - nanopb (2.30910.0):
+    - nanopb/decode (= 2.30910.0)
+    - nanopb/encode (= 2.30910.0)
+  - nanopb/decode (2.30910.0)
+  - nanopb/encode (2.30910.0)
+  - PromisesObjC (2.4.0)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
@@ -17,7 +78,23 @@ DEPENDENCIES:
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorMlkitBarcodeScanning (from `../../node_modules/@capacitor-mlkit/barcode-scanning`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+
+SPEC REPOS:
+  trunk:
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - MLImage
+    - MLKitBarcodeScanning
+    - MLKitCommon
+    - MLKitVision
+    - nanopb
+    - PromisesObjC
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -30,6 +107,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/haptics"
   CapacitorKeyboard:
     :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorMlkitBarcodeScanning:
+    :path: "../../node_modules/@capacitor-mlkit/barcode-scanning"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
 
@@ -39,8 +118,21 @@ SPEC CHECKSUMS:
   CapacitorCordova: 8c4bfdf69368512e85b1d8b724dd7546abeb30af
   CapacitorHaptics: 9ebc9363f0e9b8eb4295088a0b474530acf1859b
   CapacitorKeyboard: deacbd09d8d1029c3681197fb05d206b721d5f73
+  CapacitorMlkitBarcodeScanning: 63e217d376f8f63b1be84c0d19568f318e87f4d3
   CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleMLKit: 90ba06e028795a50261f29500d238d6061538711
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: c56430aef51a1aa57b25da78c3f8397e522c67b7
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 8000756fc1c19d2e5697b90311f7832d2e33f6cd
+  MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
+  MLKitBarcodeScanning: 9cb0ec5ec65bbb5db31de4eba0a3289626beab4e
+  MLKitCommon: afcd11b6c0735066a0dde8b4bf2331f6197cbca2
+  MLKitVision: 90922bca854014a856f8b649d1f1f04f63fd9c79
+  nanopb: 438bc412db1928dac798aa6fd75726007be04262
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
 
-PODFILE CHECKSUM: 481b90c01cf7ba51cc0b3b166926c5af446138fd
+PODFILE CHECKSUM: 74eaaf07d3ca18746424ec15f80529fe4d19208b
 
 COCOAPODS: 1.15.2

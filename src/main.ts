@@ -35,6 +35,9 @@ import '@ionic/vue/css/palettes/dark.system.css';
 /* Theme variables */
 import './theme/variables.css';
 
+/* Import Custom Files */
+import './theme/global.scss';
+
 // init pinia
 const pinia = createPinia();
 
