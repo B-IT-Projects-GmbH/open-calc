@@ -1,14 +1,12 @@
 <script setup lang="ts">
-import { IonSearchbar, IonToolbar, IonIcon } from "@ionic/vue";
+import { IonSearchbar, IonToolbar, IonIcon } from '@ionic/vue';
 import { qrCode } from 'ionicons/icons';
 </script>
 
 <template>
   <ion-toolbar>
     <div class="app-searchbar-container">
-      <ion-searchbar
-          :animated="true"
-      />
+      <ion-searchbar :animated="true" />
 
       <div class="app-searchbar-container__button">
         <ion-icon :icon="qrCode" />

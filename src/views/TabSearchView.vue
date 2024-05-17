@@ -17,5 +17,5 @@
 
 <script setup lang="ts">
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import AppToolbarSearch from "@/components/AppToolbarSearch.vue";
+import AppToolbarSearch from '@/components/AppToolbarSearch.vue';
 </script>
