@@ -1,0 +1,7 @@
+{
+  "name": "open-calc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
