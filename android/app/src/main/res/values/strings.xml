@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OpenCalc</string>
+    <string name="title_activity_main">OpenCalc</string>
+    <string name="package_name">de.bitprojects.opencalc</string>
+    <string name="custom_url_scheme">de.bitprojects.opencalc</string>
+</resources>
