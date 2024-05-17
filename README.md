@@ -1,6 +1,6 @@
 # OpenCalc
 
-OpenCalc is an open-source calorie counting app that helps users track their daily calorie intake and maintain a healthy lifestyle.
+OpenCalc is an open-source ionic calorie counting app that helps users track their daily calorie intake and maintain a healthy lifestyle.
 
 ## Features
 
@@ -19,9 +19,20 @@ After the first release, you will be able to download the app from the [Google P
 
 If you would like to contribute to the development of OpenCalc, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
+## TODO
+
+- [ ] Create a basic project structure
+- [ ] Implement the basic UI
+- [ ] Implement basic calorie tracking
+- [ ] Implement food item search
+- [ ] Implement barcode scanning
+- [ ] Implement nutrition information
+- [ ] Implement calorie goals
+- [ ] Implement reports
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
