@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'open-calc',
+  appId: 'de.bitprojects.opencalc',
+  appName: 'OpenCalc',
   webDir: 'dist'
 };
 

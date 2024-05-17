@@ -39,5 +39,6 @@
     "vitest": "^0.34.6",
     "vue-tsc": "^1.0.24"
   },
-  "description": "An Ionic project"
+  "description": "OpenCalc is an open-source calorie counting app that helps users track their daily calorie intake and maintain a healthy lifestyle.",
+  "author": "Phil Miletic <phil.miletic@b-it-projects.de>"
 }
