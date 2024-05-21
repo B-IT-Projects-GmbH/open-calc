@@ -7,18 +7,16 @@
       </ion-toolbar>
 
       <!-- Search -->
-      <app-toolbar-search v-model="currentSearch" />
+      <app-toolbar-search v-model="currentSearch" @qr-scan="searchForProduct" />
     </ion-header>
     <ion-content>
-      <ion-button @click="searchForProduct">Start Search</ion-button>
-
       <app-product-details :open-food-product="currentProduct" v-if="currentProduct" />
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/vue';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
 import AppToolbarSearch from '@/components/AppToolbarSearch.vue';
 import OpenFoodFactsProductFetcher from '@/services/OpenFoodFactsProductFetcher';
 import { ref } from 'vue';

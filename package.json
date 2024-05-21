@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
+    "preview:live": "ionic capacitor run ios --livereload --external",
     "test:e2e": "cypress run",
     "test:unit": "vitest",
     "lint": "eslint .",

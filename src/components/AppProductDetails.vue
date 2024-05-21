@@ -36,7 +36,6 @@ const nutritionList = computed(() => {
       <h1>{{ openFoodProduct.product_name }}</h1>
       <p>{{ openFoodProduct.product_quantity }}{{ openFoodProduct.product_quantity_unit }}</p>
     </div>
-
     <!-- Nutritions -->
     <div class="app-product-details__nutritions">
       <ul>
