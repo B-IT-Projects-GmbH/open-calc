@@ -19,8 +19,8 @@
         </ion-tab-button>
 
         <ion-tab-button tab="statistics" href="/tabs/statistics">
-          <ion-icon aria-hidden="true" :icon="statsChart" />
-          <ion-label>Statistics</ion-label>
+          <ion-icon aria-hidden="true" :icon="barcodeOutline" />
+          <ion-label>Scanner</ion-label>
         </ion-tab-button>
 
         <ion-tab-button tab="profile" href="/tabs/profile">
@@ -34,5 +34,5 @@
 
 <script setup lang="ts">
 import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage, IonRouterOutlet } from '@ionic/vue';
-import { homeSharp, book, search, statsChart, person } from 'ionicons/icons';
+import {homeSharp, book, search, person, barcodeOutline} from 'ionicons/icons';
 </script>
