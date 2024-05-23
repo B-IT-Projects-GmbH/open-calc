@@ -24,7 +24,7 @@ After the first release, you will be able to download the app from the [Google P
 
 ## Contributing
 
-If you would like to contribute to the development of OpenCalc, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+If you would like to contribute to the development of OpenCalc, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file. Please also take note of our [CODE OF CONDUCT](CODE_OF_CONDUCT.md).
 
 ## TODO
 
